@@ -8,7 +8,7 @@ const Filter = ({ setRegion }: Props) => {
       className="shadow-2xl p-2 bg-gray-300 rounded-[5px] cursor-pointer "
       onChange={(e) => setRegion(e.target.value)}
     >
-      <option value="">All Regions</option>
+      <option value="">Filter by Region</option>
       <option value="Africa">Africa</option>
       <option value="Americas">Americas</option>
       <option value="Asia">Asia</option>
