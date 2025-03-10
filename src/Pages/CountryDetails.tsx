@@ -38,12 +38,12 @@ const CountryDetails = () => {
           </p>
 
           <p className="font-bold">
-            Capital:{" "}
+            Capital:
             <span className="font-[400]">{country.capital?.[0] || "N/A"}</span>
           </p>
 
           <p className="font-bold">
-            Top Level Domain:{" "}
+            Top Level Domain:
             <span className="font-[400]">{country.tld?.[0] || "N/A"}</span>
           </p>
 
